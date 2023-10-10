@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugallon Dashboard</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="loginAdmin.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="row justify-content-end">
+
+            <div class="col-md-6">
+
+                <img src="https://scontent.fcrk1-4.fna.fbcdn.net/v/t1.15752-9/383808016_686358216456289_2202587373148100267_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGaemR7o-mCuPv1661ipvQQEO19i6Kx4RgQ7X2LorHhGHkYWnj81ysBXuKBEofeF0SCN04CR2In1aexMA_L3efl&_nc_ohc=73UBnjvtGDYAX_CBiDu&_nc_ht=scontent.fcrk1-4.fna&oh=03_AdRpgI13lDNEZfsQqJL56v7Y435cq9BXHn1qDLuFmgj3IA&oe=654D0DB9" alt="Left Image" class="img-fluid logo">
+            </div>
+            <div class="col-md-6">
+
+                <div class="card-body">
+
+                    <h2 class="card-title text-start mt-5 mb-3">Administrator</h2>
+
+                    <form action="loginAdmin.php" method="post">
+
+                        <div class="form-group ebox">
+
+                            <input type="Email" class="form-control" required placeholder="Email" name="adminemail">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <input type="password" class="form-control" required placeholder="Password" name="adminpassword">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <div class="form-check">
+
+                                <input type="checkbox" class="form-check-input" id="agreeCheckbox" name="adminremember" required>
+
+                                <label class="form-check-label" for="agreeCheckbox">Remember me? </label>
+
+                            </div>
+
+                            <p><a href="#">Forgot password?</a></p>
+
+                        </div>
+
+                        <div class="text-center">
+
+                            <button type="submit" class="btn mt-3 btn-secondary">Log in</button>
+
+                            <p class="dont">Don't have an account? <a href="signupAdmin.html">Sign Up</a></p>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
